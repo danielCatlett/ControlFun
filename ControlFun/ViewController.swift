@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var sliderLabel: UILabel!
     @IBOutlet weak var leftSwitch: UISwitch!
     @IBOutlet weak var rightSwitch: UISwitch!
-   // @IBOutlet weak var toggle: UISegmentedControl!
+   //	 @IBOutlet weak var toggle: UISegmentedControl!
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -29,16 +29,19 @@ class ViewController: UIViewController {
         sender.resignFirstResponder()
     }
     
+    
     @IBAction func onTapGestureRecognized(_ sender: Any)
     {
         nameField.resignFirstResponder()
         numberField.resignFirstResponder()
     }
     
+    /*
     @IBAction func onSliderChanged(_ sender: UISlider)
     {
         sliderLabel.text = "\(lroundf(sender.value))"
     }
+    
     
     @IBAction func onSwitchChanged(_ sender: UISwitch)
     {
@@ -47,9 +50,12 @@ class ViewController: UIViewController {
         rightSwitch.setOn(setting, animated: true)
     }
     
+    
     @IBAction func toggleControls(_ sender: UISegmentedControl)
     {
     
     }
+  */
+ 
 }
 
